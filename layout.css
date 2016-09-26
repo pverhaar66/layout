@@ -1,0 +1,268 @@
+html { font-family: tahoma;  
+
+}
+body {
+		background-image:url("images/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+.rise_of_iron_wall {
+        background-image: url("images/052174.jpg");
+}
+
+p {  
+	padding: 5px 20px;
+	display: inline;	
+}
+
+li { 
+	display: inline; 
+}
+
+h1 {	
+	padding: 30px 0px 10px 0px;
+}
+
+a {
+    color: white;   
+}
+
+button {
+        height: 60px;
+        width: 120px;
+        background-color: #58D3F7;
+        border-color: black;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px;
+}
+
+#box {	
+	   display: block;
+	   height: 1900px;
+	   width: 900px;
+       background-color: #aba8a8;
+	   margin: 0% auto;
+	   text-align: center;
+}
+
+.lilbox { 
+        background-color: black;
+        color: white;
+        border-style: solid;
+        border-width: 2px;
+        height: 400px;
+        width: 700px;
+        margin: 0px auto;
+        padding: 5px 5px;   
+
+}
+
+
+.boxk {  
+       display: block;
+       height: 100%;
+       width: 1000px;
+       background-color:none;
+       text-align: center;
+       margin: 0 auto 0 auto; 
+}
+
+.boxs { 
+        background-color: white;
+        position: relative;
+        height: 800px;
+        width: 960px;
+        margin: 0 auto 0 auto;  
+}
+
+
+#header {  
+ 			height: 40%;
+ 			width: 60%;
+ 			position: relative;
+ 			left: 20%;	
+ 			padding: 20px auto 20px auto;
+}
+
+.transport {
+        height: 350px;
+        width: 470px;   
+}
+
+.artwork { 
+        height: 700px;
+        width: 350px;
+
+}
+
+.SSP { 
+       border-style: solid;
+       box-shadow: 10px;
+       border-width: 1px;
+}
+
+.FFXV { 
+       height: 45%;
+       width: 80%;
+       border-style: solid;
+       box-shadow: 10px;
+       border-width: 1px;
+}
+
+.battle { 
+    height: 350px;
+    width: 600px;
+    display: block;
+    margin: 0px auto 0px auto;
+}   
+
+
+.iron {
+    height: 400px;
+    width: 800px;
+    display: block; 
+    margin: 0px auto 0px auto;
+}
+.irontext {
+        font-size: 19px;
+}
+
+.ironul{
+        width: 800px;
+        margin: 0px auto 0px auto;
+        text-align: justify;
+}   
+
+.overwatch {  
+        height: 40%;
+        width: 80%;
+        border-style: solid;
+        box-shadow: 10px;
+        border-width: 1px;
+}
+
+.MSQ {  
+        height: 300px;
+        width: 960px;
+}
+
+.left { 
+        float: left;
+        padding: 5px;
+        width: 455px;
+}
+
+.names {
+        font-size: 23px;
+}
+
+.pos {
+        position: absolute;
+        color: gold;
+        top: 100px;
+}
+
+.pos1 {
+        position: absolute;
+        color: white;
+        top: 10px;
+        left: 6px;
+        font-size: 55px;
+}
+
+.pos1i {
+       position: absolute;
+        color: white;
+        top: 80px;
+        left: 10px;
+        font-size: 30px;    
+}
+
+
+.pos1j {
+       position: absolute;
+        color: white;
+        top: 35px;
+        left: 490px;
+        font-size: 25px;    
+}
+
+.pos1k {
+       position: absolute;
+        color: white;
+        top: 30px;
+        left: 10px;
+        font-size: 28px;    
+}
+
+.h2l { 
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px;
+    background-color: #58D3F7;
+    margin: 100px 0px 5px 0px;
+}
+
+.souls {
+        position: absolute;
+        color: white;
+        top: 10px;
+}
+
+.FFXV-Mainchars {
+        height: 400px;
+        width: 850px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    top: 10px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+
