@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 html { font-family: tahoma;  
 
 }
@@ -7,8 +11,12 @@ body {
         background-attachment: fixed;
 }
 
-.rise_of_iron_wall {
-        background-image: url("images/052174.jpg");
+#header {  
+            height: 40%;
+            width: 60%;
+            position: relative;
+            left: 20%;  
+            padding: 20px auto 20px auto;
 }
 
 p {  
@@ -17,11 +25,13 @@ p {
 }
 
 li { 
-	display: inline; 
+    text-align: left;
+    margin-left: 50px; 
 }
 
 h1 {	
 	padding: 30px 0px 10px 0px;
+    width: 100%;
 }
 
 a {
@@ -37,6 +47,24 @@ button {
         text-shadow: 1px 1px 1px;
 }
 
+.ads {  
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        border-style: solid;
+        border-color: white;
+
+}
+
+.ads2 {  
+        
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        border-style: solid;
+        border-color: white;
+}
+
 #box {	
 	   display: block;
 	   height: 1900px;
@@ -44,6 +72,18 @@ button {
        background-color: #aba8a8;
 	   margin: 0% auto;
 	   text-align: center;
+       display: flex;
+       flex-wrap: wrap;
+       flex: 2;
+}
+
+#box2 {
+       display: block;
+       height: 100%;
+       width: 1000px;
+       background-color:none;
+       text-align: center;
+       margin: 0 13%;
 }
 
 .lilbox { 
@@ -66,40 +106,52 @@ button {
        background-color:none;
        text-align: center;
        margin: 0 auto 0 auto; 
+       display: flex;
+       flex-wrap: wrap;
 }
 
 .boxs { 
         background-color: white;
         position: relative;
-        height: 800px;
+        height: 100%;
         width: 960px;
         margin: 0 auto 0 auto;  
 }
 
-
-#header {  
- 			height: 40%;
- 			width: 60%;
- 			position: relative;
- 			left: 20%;	
- 			padding: 20px auto 20px auto;
+.h2l { 
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px;
+    background-color: #58D3F7;
+    margin: 0px 0px 5px 0px;
 }
 
-.transport {
-        height: 350px;
-        width: 470px;   
+.overwatch {  
+        height: 40%;
+        width: 80%;
+        border-style: solid;
+        box-shadow: 10px;
+        border-width: 1px;
+}
+/* ======================= ,my hobby Page ========================*/
+
+#header_mhb {  
+            height: 40%;
+            width: 50%;
+            position: relative;
+            left: 14%;  
+            padding: 20px auto 20px auto;
 }
 
-.artwork { 
-        height: 700px;
-        width: 350px;
-
+.mhb_wall {
+        background-image: url("images/anime-wallpapers-9.jpg");
 }
 
-.SSP { 
-       border-style: solid;
-       box-shadow: 10px;
-       border-width: 1px;
+
+/* ======================= Final Fantasy XV Page ========================*/
+
+.ffxv_wall {
+        background-image: url("images/hXNS2k.png");
 }
 
 .FFXV { 
@@ -110,13 +162,33 @@ button {
        border-width: 1px;
 }
 
+.FFXV-Mainchars {
+        height: 400px;
+        width: 850px;
+}
+
+.names {
+        font-size: 23px;
+}
+
+.transport {
+        height: 350px;
+        width: 470px;   
+}
+
 .battle { 
     height: 350px;
     width: 600px;
     display: block;
     margin: 0px auto 0px auto;
-}   
+}
 
+
+/* ======================= Destiny Rise of Iron Page ========================*/
+
+.rise_of_iron_wall {
+        background-image: url("images/052174.jpg");
+}
 
 .iron {
     height: 400px;
@@ -131,30 +203,55 @@ button {
 .ironul{
         width: 800px;
         margin: 0px auto 0px auto;
+        padding-bottom: 50px;
         text-align: justify;
 }   
 
-.overwatch {  
-        height: 40%;
-        width: 80%;
-        border-style: solid;
-        box-shadow: 10px;
-        border-width: 1px;
+/* ======================= Sniper Elite Page ========================*/
+
+.se4_wall {
+        background-image: url("images/SE4_8.jpg");
+}
+
+.se4_image {
+        height: 400px;
+        width: 720px;
+        margin: 0 auto 0 auto;
+        display: block; 
+}
+
+.se4text {
+        font-size: 19px;
+}
+
+.artwork { 
+        height: 700px;
+        width: 350px;
+
+}
+
+/* ======================= Final Fantasy XIV Souls Surender patch 3.4 Page ========================*/
+
+.ssp_wall {
+        background-image: url("images/ffxiv_wall.jpg");
+}
+
+
+.SSP { 
+       border-style: solid;
+       box-shadow: 10px;
+       border-width: 1px;
+}
+
+.souls {
+        position: absolute;
+        color: white;
+        top: 30px;
 }
 
 .MSQ {  
         height: 300px;
         width: 960px;
-}
-
-.left { 
-        float: left;
-        padding: 5px;
-        width: 455px;
-}
-
-.names {
-        font-size: 23px;
 }
 
 .pos {
@@ -166,7 +263,7 @@ button {
 .pos1 {
         position: absolute;
         color: white;
-        top: 10px;
+        top: 60px;
         left: 6px;
         font-size: 55px;
 }
@@ -174,7 +271,7 @@ button {
 .pos1i {
        position: absolute;
         color: white;
-        top: 80px;
+        top: 120px;
         left: 10px;
         font-size: 30px;    
 }
@@ -183,7 +280,8 @@ button {
 .pos1j {
        position: absolute;
         color: white;
-        top: 35px;
+        width: 50%;
+        top: 80px;
         left: 490px;
         font-size: 25px;    
 }
@@ -191,29 +289,26 @@ button {
 .pos1k {
        position: absolute;
         color: white;
-        top: 30px;
+        width: 50%;
+        top: 80px;
         left: 10px;
         font-size: 28px;    
 }
 
-.h2l { 
-    color: white;
-    font-size: 50px;
-    text-shadow: 1px 1px 1px;
-    background-color: #58D3F7;
-    margin: 100px 0px 5px 0px;
+
+.left { 
+        float: left;
+        width: 455px;
 }
 
-.souls {
-        position: absolute;
-        color: white;
-        top: 10px;
+.left2 { 
+        float: left;
+        padding: 5px;
+        width: 455px;
 }
 
-.FFXV-Mainchars {
-        height: 400px;
-        width: 850px;
-}
+/* ======================= dropdown_menu ========================*/
+
 
 .dropbtn {
     background-color: #4CAF50;
@@ -263,6 +358,20 @@ button {
 }
 
 
+@media screen and (max-width: 1600px){
 
+        #box{
+          
+          height: 100%;
+        }    
 
+        .ads{
+            position: static;
+            margin-left: 106px;
+        }
+        .ads2{
+            position: static;
+            margin-right:  106px;
+        }
 
+}
